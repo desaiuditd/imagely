@@ -100,6 +100,7 @@ starwars_photos/
 yelp-dataset/
 yelp-photos/
 test-images/
+yelp-results/
 
 retrained_graph.pb
 retrained_labels.txt
