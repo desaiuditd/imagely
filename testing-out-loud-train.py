@@ -12,6 +12,19 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 # ==============================================================================
+
+# How to use this script to train the model
+
+# python testing-out-loud-train.py \
+#     --image_dir ./yelp-photos \
+#     --bottleneck_dir ./bottlenecks \
+#     --how_many_training_steps 500 \
+#     --model_dir ./inception \
+#     --output_graph ./retrained_graph.pb \
+#     --output_labels ./retrained_labels.txt \
+#     --summaries_dir ./retrain_logs
+
+
 """Simple transfer learning with an Inception v3 architecture model which
 displays summaries in TensorBoard.
 
