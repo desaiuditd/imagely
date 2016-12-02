@@ -90,3 +90,16 @@ ENV/
 
 # PyCharm Files
 .idea
+
+# Data Files
+bottlenecks/
+flower_photos/
+inception/
+retrain_logs/
+starwars_photos/
+yelp-dataset/
+yelp-photos/
+test-images/
+
+retrained_graph.pb
+retrained_labels.txt
