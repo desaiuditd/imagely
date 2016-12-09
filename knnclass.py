@@ -71,9 +71,9 @@ print("RAM occupied by features matrix: {:.2f}MB".format(
 
 
 (trainRI, testRI, trainRL, testRL) = train_test_split(
-	rawImg, labels, test_size=0.25, random_state=42)
+	rawImg, labels, test_size=0.25, random_state=21)
 (trainFeat, testFeat, trainLabels, testLabels) = train_test_split(
-	features, labels, test_size=0.25, random_state=42)
+	features, labels, test_size=0.25, random_state=21)
 
 print("evaluating raw pixel accuracy...")
 model = KNeighborsClassifier(n_neighbors=args["neighbors"],
